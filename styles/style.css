@@ -134,6 +134,75 @@ text-align: left;
 .div{
     max-width: 550px;
 }
+
+.icon-containerr{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 150px;
+}
+.icon-container{
+    border: 1px solid rosybrown;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+.icon-container img{
+    
+    width: 50%;
+}
+.facts-title{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+text-align: left;
+}
+.facts-des{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+width: 500px;
+}
+.class{
+    padding: 30px 140px;
+}
+
+/* last part */
+
+.last-title{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+text-align: center;
+}
+
+.last-des{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-weight: 400;
+text-align: center;
+width: 500px;
+margin: 0 auto;
+}
+.last-pic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* footer part */
+
+
+footer{
+    margin: 150px;
+background: rgb(255, 244, 231);
+text-align: center;
+padding: 40px 100px;
+}
+
 @media screen and (max-width:576px){
     .header{
         padding: 3px 10px;
@@ -169,5 +238,47 @@ text-align: left;
     .lady-title{
         font-size: 20px;
     }
-    
+    /* dggg facts */
+    .icon-containerr{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        padding: 3px 10px;
+    }
+    .icon-containerr{
+        padding: 3px 10px;
+    }
+    .facts-des{
+        width: 70%;
+    }
+       .class{
+        padding: 3px 10px;
+       }
+       .facts-title{
+           font-size: 20px;
+           padding: 3px 10px;
+       }
+
+       .last-pic{
+         flex-direction: column;
+         padding: 3px 10px;
+       }
+       .last-pic img{
+        margin-bottom: 70px;
+        padding: 3px 10px;
+       }
+       .last-title{
+        font-size: 20px;
+        padding: 3px 10px;
+       }
+       .last-des{
+        width: 70%;
+        padding: 3px 10px;
+       }
+       .last-pic .div img{
+        width: 100%;
+       }
+       footer{
+        padding: 3px;
+        margin: 2px;
+       }
 }
