@@ -1,0 +1,91 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+ *{
+    font-family: "Work Sans", sans-serif;
+ }
+ header{
+   background: rgba(255, 144, 14, 0.1);
+   padding: 20px 100px;
+ }
+ .nav-title{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+ }
+ .btn-primary{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+border-radius: 8px;
+padding: 10px 15px;
+background: rgb(255, 144, 14);
+border: none;
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ nav >ul{
+    display: flex;
+ }
+ nav >ul >li{
+    list-style: none;
+    margin-right: 20px;
+ }
+ nav >ul >li>a{
+    text-decoration: none;
+ }
+ /* banner */
+ .banner-title{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+ }
+ .banner-descrip{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+width: 800px;
+margin: 0 auto;
+margin-bottom: 20px;
+ }
+ .center{
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+
+ @media screen and (max-width:576px){
+   header{
+      padding: 3px 10px;
+   }
+   nav{
+      flex-direction: column;
+   }
+   .nav-title{
+      font-size: 30px;
+   }
+   .banner-title{
+      font-size: 30px;
+      width: 100%;
+   }
+   .banner-descrip{
+      width: 100%;
+   }
+   img{
+      width: 100%;
+   }
+ }
