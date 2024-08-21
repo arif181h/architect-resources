@@ -7,9 +7,13 @@ header{
     padding:10px 100px;
     background: rgba(255, 144, 14, 0.1);
 }
-img, .lady-photo img{
+img{
     width: 100%;
 }
+.lady-photo img{
+    width: 100%;
+}
+
 .hide{
     display: none;
 }
@@ -205,18 +209,41 @@ padding: 40px 100px;
 
 @media screen and (max-width:576px){
     .header{
-        padding: 3px 10px;
+        padding: 1px 1px;
     }
+    
     nav{
         flex-direction: column;
+        padding: 3px 10px;
+    }
+    nav >ul{
+        flex-direction: column;
+        padding: 2px 3px;
+    }
+    nav >ul {
+        padding: 1px;
     }
     .nav-title{
         font-size: 20px;
     }
     .banner-title{
+        width: 50%;
         font-size: 20px;
         margin-bottom: 20px;
+        padding: 2px 3px;
     }
+    .banner-descrip{
+        max-width: 200px;
+        text-align: left;
+        padding: 1px 1px 2px 1px;
+        margin: 1px 1px 2px 1px;
+    }
+    .center{
+        text-align: left;
+        padding: 2px 3px;
+    }
+    
+
     /* photo secton */
     .photo-container{
         flex-direction: column;
